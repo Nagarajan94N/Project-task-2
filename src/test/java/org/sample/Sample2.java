@@ -62,7 +62,7 @@ public class Sample2 extends BaseClass {
 			if(pricess.contains("₹")) {
 				pricess=pricess.replace("₹", "");
 			}
-			int inprice = Integer.parseInt(pricess);
+			int inprice = Integer.parseInt(pricess); //string into integer
 		 pair.put(inprice, name);
 		}
 		//System.out.println(pair);
