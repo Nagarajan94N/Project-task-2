@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="org.sample.SampleClass">
+      <class name="org.sample.Sample2">
         <methods>
-          <include name="afterMethod"/>
-          <include name="afterClass"/>
           <include name="beforeMethod"/>
           <include name="test"/>
           <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- org.sample.SampleClass -->
+      </class> <!-- org.sample.Sample2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
